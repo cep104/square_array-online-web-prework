@@ -6,8 +6,7 @@
 #   new_array
 # end
 def square_array(array)
-  array.collect{|n| n**2}
+  new_array = array.collect{|n| n**2}
 
 
 end
-square_array([1,2,3])
